@@ -9,9 +9,9 @@ public class Swapping {
 		System.out.println("Before Swapping");
 		System.out.println("A value is " +a);
 		System.out.println("B value is " +b);
-		a = a+b;
-		b = a-b;
-		a = a-b;
+		a = a+b;       //int c = a
+		b = a-b;       //    a = b
+		a = a-b;       //    b = c	
 		System.out.println("After Swapping");
 		System.out.println("A value is " +a);
 		System.out.println("B value is " +b);
