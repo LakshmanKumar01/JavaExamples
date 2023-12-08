@@ -9,8 +9,6 @@ public class Swapping {
 		System.out.println("A value is " +a);
 		System.out.println("B value is " +b);
 
-                  
-                  // Using Third Variable
 	 a = a+b;        // int c = a
 		b = a-b;        //    a = b
 		a = a-b;        //    b = c	
