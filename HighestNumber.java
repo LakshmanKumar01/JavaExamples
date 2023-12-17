@@ -1,4 +1,5 @@
-imaport java.util.Scanner;
+// Highest Number of Three Numbers
+import java.util.Scanner;
 public class HighestNumber {
 
 	public static void main(String[] args) {
