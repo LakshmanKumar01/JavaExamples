@@ -1,0 +1,19 @@
+
+class Solution {
+  
+    public int scoreOfString(String s){
+        int ans = 0;
+        for(int i = 0;i<s.length()-1;i++){
+            int indexA = i;
+            int indexB = i+1;
+            char fletter = s.charAt(indexA);
+            char sletter = s.charAt(indexB);
+            int fvalue = fletter;
+            int svalue = sletter;
+            int avalue = fvalue - svalue;
+            int temp = Math.abs(avalue);
+            ans = ans + temp;
+        }
+        return ans;
+    }
+}
