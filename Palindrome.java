@@ -4,8 +4,8 @@ public class Palindrome {
     temp = n;
     int result = 0;
     while(n > 0){
-        result = n % 10;
-        r = result * 10 + r;
+        r = n % 10;
+        result = result * 10 + r;
         n/=10;
         
     }
